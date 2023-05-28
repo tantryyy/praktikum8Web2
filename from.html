@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pemeriksaan Kesehatan</title>
+</head>
+<body>
+    <h1>Form Pemeriksaan Kesehatan</h1>
+    <form action="hasil.php" method="POST">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="tanggal_pemeriksaan">Tanggal Pemeriksaan:</label>
+        <input type="date" id="tanggal_pemeriksaan" name="tanggal_pemeriksaan" required><br><br>
+
+        <label for="tanggal_lahir">Tanggal Lahir/Usia:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="jenis_kelamin" value="Pria" required>
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="jenis_kelamin" value="Wanita" required>
+        <label for="wanita">Wanita</label><br><br>
+
+        <h3>Jenis Tes</h3>
+        <label for="tekanan_darah">Tekanan Darah:</label><br>
+        <input type="text" id="tekanan_darah" name="tekanan_darah" required><br>
+
+        <label for="asam_urat">Asam Urat:</label><br>
+        <input type="text" id="asam_urat" name="asam_urat" required><br>
+
+        <label for="kolesterol_total">Kolesterol Total:</label><br>
+        <input type="text" id="kolesterol_total" name="kolesterol_total" required><br>
+
+        <label for="gula_darah_puasa">Gula Darah Puasa:</label><br>
+        <input type="text" id="gula_darah_puasa" name="gula_darah_puasa" required><br>
+
+        <label for="gula_darah_2_jam">Gula Darah 2 Jam Setelah Makan:</label><br>
+        <input type="text" id="gula_darah_2_jam" name="gula_darah_2_jam" required><br>
+
+        <label for="gula_darah_sewaktu">Gula Darah Sewaktu/Acak:</label><br>
+        <input type="text" id="gula_darah_sewaktu" name="gula_darah_sewaktu" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
